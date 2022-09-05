@@ -7,7 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		63B5AF8E28C5A28A00C93B62 /* NSArray+Random.m in Sources */ = {isa = PBXBuildFile; fileRef = 63B5AF8D28C5A28A00C93B62 /* NSArray+Random.m */; };
 		63F2A8BF28C5040100976A72 /* NSArray+String.m in Sources */ = {isa = PBXBuildFile; fileRef = 63F2A8BE28C5040100976A72 /* NSArray+String.m */; };
+		63F2A8C328C591A700976A72 /* GameCollectionCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 63F2A8C228C591A700976A72 /* GameCollectionCell.m */; };
+		63F2A8C728C594C000976A72 /* UIView+Toast.m in Sources */ = {isa = PBXBuildFile; fileRef = 63F2A8C628C594C000976A72 /* UIView+Toast.m */; };
 		63F2AA3828C44F0500B091F7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 63F2AA3728C44F0500B091F7 /* AppDelegate.m */; };
 		63F2AA3B28C44F0500B091F7 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 63F2AA3A28C44F0500B091F7 /* SceneDelegate.m */; };
 		63F2AA3E28C44F0500B091F7 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 63F2AA3D28C44F0500B091F7 /* ViewController.m */; };
@@ -39,8 +42,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		63B5AF8C28C5A28A00C93B62 /* NSArray+Random.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSArray+Random.h"; sourceTree = "<group>"; };
+		63B5AF8D28C5A28A00C93B62 /* NSArray+Random.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSArray+Random.m"; sourceTree = "<group>"; };
 		63F2A8BD28C5040100976A72 /* NSArray+String.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSArray+String.h"; sourceTree = "<group>"; };
 		63F2A8BE28C5040100976A72 /* NSArray+String.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSArray+String.m"; sourceTree = "<group>"; };
+		63F2A8C028C589D000976A72 /* UIStyle.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UIStyle.h; sourceTree = "<group>"; };
+		63F2A8C128C591A700976A72 /* GameCollectionCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GameCollectionCell.h; sourceTree = "<group>"; };
+		63F2A8C228C591A700976A72 /* GameCollectionCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GameCollectionCell.m; sourceTree = "<group>"; };
+		63F2A8C528C594C000976A72 /* UIView+Toast.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Toast.h"; sourceTree = "<group>"; };
+		63F2A8C628C594C000976A72 /* UIView+Toast.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Toast.m"; sourceTree = "<group>"; };
 		63F2AA3328C44F0500B091F7 /* SpotIt.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SpotIt.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		63F2AA3628C44F0500B091F7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		63F2AA3728C44F0500B091F7 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -87,6 +97,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		63F2A8C428C594C000976A72 /* Toast */ = {
+			isa = PBXGroup;
+			children = (
+				63F2A8C528C594C000976A72 /* UIView+Toast.h */,
+				63F2A8C628C594C000976A72 /* UIView+Toast.m */,
+			);
+			path = Toast;
+			sourceTree = "<group>";
+		};
 		63F2AA2A28C44F0500B091F7 = {
 			isa = PBXGroup;
 			children = (
@@ -110,12 +129,18 @@
 		63F2AA3528C44F0500B091F7 /* SpotIt */ = {
 			isa = PBXGroup;
 			children = (
+				63F2A8C428C594C000976A72 /* Toast */,
+				63F2A8C028C589D000976A72 /* UIStyle.h */,
 				63F2AA3628C44F0500B091F7 /* AppDelegate.h */,
 				63F2AA3728C44F0500B091F7 /* AppDelegate.m */,
 				63F2AA3928C44F0500B091F7 /* SceneDelegate.h */,
 				63F2AA3A28C44F0500B091F7 /* SceneDelegate.m */,
 				63F2AA3C28C44F0500B091F7 /* ViewController.h */,
 				63F2AA3D28C44F0500B091F7 /* ViewController.m */,
+				63F2A8C128C591A700976A72 /* GameCollectionCell.h */,
+				63F2A8C228C591A700976A72 /* GameCollectionCell.m */,
+				63B5AF8C28C5A28A00C93B62 /* NSArray+Random.h */,
+				63B5AF8D28C5A28A00C93B62 /* NSArray+Random.m */,
 				63F2A8BD28C5040100976A72 /* NSArray+String.h */,
 				63F2A8BE28C5040100976A72 /* NSArray+String.m */,
 				63F2AA6B28C450C700B091F7 /* SIGame.h */,
@@ -276,7 +301,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				63F2A8C728C594C000976A72 /* UIView+Toast.m in Sources */,
 				63F2AA3E28C44F0500B091F7 /* ViewController.m in Sources */,
+				63F2A8C328C591A700976A72 /* GameCollectionCell.m in Sources */,
+				63B5AF8E28C5A28A00C93B62 /* NSArray+Random.m in Sources */,
 				63F2A8BF28C5040100976A72 /* NSArray+String.m in Sources */,
 				63F2AA3828C44F0500B091F7 /* AppDelegate.m in Sources */,
 				63F2AA4928C44F0600B091F7 /* main.m in Sources */,
@@ -454,7 +482,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 64R6FJSW7Q;
+				DEVELOPMENT_TEAM = P5M2XEQ4ZK;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = SpotIt/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -481,7 +509,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 64R6FJSW7Q;
+				DEVELOPMENT_TEAM = P5M2XEQ4ZK;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = SpotIt/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
