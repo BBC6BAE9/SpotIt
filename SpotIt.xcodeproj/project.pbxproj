@@ -14,7 +14,6 @@
 		630DADB028C5AA87002918EC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 630DADAF28C5AA87002918EC /* Assets.xcassets */; };
 		630DADB328C5AA87002918EC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 630DADB128C5AA87002918EC /* LaunchScreen.storyboard */; };
 		630DADB628C5AA87002918EC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 630DADB528C5AA87002918EC /* main.m */; };
-		630DADC028C5AA87002918EC /* SpotItTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 630DADBF28C5AA87002918EC /* SpotItTests.m */; };
 		630DADCA28C5AA87002918EC /* SpotItUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 630DADC928C5AA87002918EC /* SpotItUITests.m */; };
 		630DADCC28C5AA87002918EC /* SpotItUITestsLaunchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 630DADCB28C5AA87002918EC /* SpotItUITestsLaunchTests.m */; };
 		630DADDC28C5AA92002918EC /* UIView+Toast.m in Sources */ = {isa = PBXBuildFile; fileRef = 630DADDA28C5AA92002918EC /* UIView+Toast.m */; };
@@ -22,6 +21,7 @@
 		630DADE628C5AAAD002918EC /* NSArray+String.m in Sources */ = {isa = PBXBuildFile; fileRef = 630DADDF28C5AAAD002918EC /* NSArray+String.m */; };
 		630DADE728C5AAAD002918EC /* SIGame.m in Sources */ = {isa = PBXBuildFile; fileRef = 630DADE228C5AAAD002918EC /* SIGame.m */; };
 		630DADE828C5AAAD002918EC /* GameCollectionCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 630DADE428C5AAAD002918EC /* GameCollectionCell.m */; };
+		63B5AF9028C5AB4100C93B62 /* SIGameTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 63B5AF8F28C5AB4100C93B62 /* SIGameTests.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,7 +55,6 @@
 		630DADB428C5AA87002918EC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		630DADB528C5AA87002918EC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		630DADBB28C5AA87002918EC /* SpotItTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SpotItTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		630DADBF28C5AA87002918EC /* SpotItTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SpotItTests.m; sourceTree = "<group>"; };
 		630DADC528C5AA87002918EC /* SpotItUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SpotItUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		630DADC928C5AA87002918EC /* SpotItUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SpotItUITests.m; sourceTree = "<group>"; };
 		630DADCB28C5AA87002918EC /* SpotItUITestsLaunchTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SpotItUITestsLaunchTests.m; sourceTree = "<group>"; };
@@ -70,6 +69,7 @@
 		630DADE228C5AAAD002918EC /* SIGame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SIGame.m; sourceTree = "<group>"; };
 		630DADE328C5AAAD002918EC /* SIGame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SIGame.h; sourceTree = "<group>"; };
 		630DADE428C5AAAD002918EC /* GameCollectionCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameCollectionCell.m; sourceTree = "<group>"; };
+		63B5AF8F28C5AB4100C93B62 /* SIGameTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SIGameTests.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -148,7 +148,7 @@
 		630DADBE28C5AA87002918EC /* SpotItTests */ = {
 			isa = PBXGroup;
 			children = (
-				630DADBF28C5AA87002918EC /* SpotItTests.m */,
+				63B5AF8F28C5AB4100C93B62 /* SIGameTests.m */,
 			);
 			path = SpotItTests;
 			sourceTree = "<group>";
@@ -317,7 +317,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				630DADC028C5AA87002918EC /* SpotItTests.m in Sources */,
+				63B5AF9028C5AB4100C93B62 /* SIGameTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
