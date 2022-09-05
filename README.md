@@ -6,3 +6,7 @@ Spot it Game
 不到100行代码。参考了公众号【数学爱好者俱乐部】的解法
 
 🏴‍☠️https://mp.weixin.qq.com/s/MhzJBVfdEHLqfZvwGGBRUg
+
+![src=](./spotit.png)
+![src=](./game.png)
+
